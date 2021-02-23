@@ -883,7 +883,7 @@ input[type=number] {
     border: 1px solid #eee;
     border-radius: 8px;
     min-height: 135px;
-    background: url(https://www.superbuy.com/cn/source/img/buy/selfservice/bg01.png) left bottom #fff no-repeat;
+    background: url(../images/bg01.png) left bottom #fff no-repeat;
     position: relative;
     padding: 34px 32px;
 }
@@ -894,7 +894,7 @@ input[type=number] {
     position: absolute;
     width: 33px;
     height: 45px;
-    background: url(https://www.superbuy.com/cn/source/img/buy/selfservice/bg02.png) no-repeat;
+    background: url(../images/bg02.png) no-repeat;
     bottom: -29px;
 }
 
