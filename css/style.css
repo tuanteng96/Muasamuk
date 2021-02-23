@@ -925,7 +925,7 @@ input[type=number] {
 .page-order .page-order__step {
     width: 778px;
     min-height: 48px;
-    background: url(https://www.superbuy.com/cn/source/img/buy/selfservice/bg_step.png) no-repeat;
+    background: url(../images/bg_step.png) no-repeat;
     position: absolute;
     top: 34px;
     right: 29px;
