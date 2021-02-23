@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Order sản phẩm | MuaSamUK.VN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&family=Potta+One&display=swap" rel="stylesheet">
+    <!--Bootstrap CSS -->
+    <link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--Font Awesome Pro CSS -->
+    <link href="libs/font-awesome-pro/css/all.min.css" rel="stylesheet">
+    <!--Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <div class="header-baner">
+            <a href="#">
+                <img src="images/banner-header.jpg">
+            </a>
+        </div>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="header-top__time">
+                            Giờ nước Anh (UK) <span class="js-date"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="header-top__user">
+                            <ul>
+                                <li class="user">
+                                    <a href="account.html">
+                                        Nguyễn Tài Tuấn
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="your-order.html">Đơn hàng của bạn</a>
+                                </li>
+                                <li>
+                                    <a href="#">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <div class="header-nav__box">
+                    <div class="header-nav__logo">
+                        <a href="index.html">
+                            MuaSam<span>UK</span>.VN
+                        </a>
+                    </div>
+                    <div class="header-nav__menu" id="box-menu">
+                        <ul>
+                            <li><a class="active" href="#">Trang chủ</a></li>
+                            <li><a href="#">Mua hàng</a></li>
+                            <li><a href="#">Hướng dẫn</a></li>
+                            <li><a href="#">Về chúng tôi</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-btn__menu">
+                        <button type="button" id="js-menu"><i class="fas fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+
+    <!--Main-->
+    <main role="main">
+        <section class="page-order">
+
+            <div class="container">
+                <div class="page-order__head">
+                    <h3>Điền vào Đơn đặt hàng</h3>
+                    <div class="desc">（ Cột được đánh dấu là bắt buộc ）</div>
+                    <div class="page-order__step">
+                        <div class="content-left">
+                            Gửi đơn đặt hàng của đại lý mua sắm
+                        </div>
+                        <ol>
+                            <li>Điền vào đặt hàng và gửi</li>
+                            <li>Thanh toán sản phẩm</li>
+                            <li>Chờ sản phẩm của bạn về kho</li>
+                        </ol>
+                        <div class="content-right">
+                            Gửi bưu kiện để chuyển phát quốc tế
+                        </div>
+                    </div>
+                </div>
+
+                <form>
+                    <div class="page-order--box">
+                        <div class="page-order__body">
+                            <div class="page-order__title">
+                                <h3>Thông tin sản phẩm</h3>
+                            </div>
+                            <div class="page-order__form">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <div class="page-order__form-item">
+                                            <label>Link</label>
+                                            <div class="page-order__form-input">
+                                                <input type="text" placeholder="Nhập link sản phẩm">
+                                            </div>
+                                        </div>
+                                        <div class="page-order__form-item">
+                                            <label>Số lượng</label>
+                                            <div class="page-order__form-input">
+                                                <input type="text" placeholder="Số lượng">
+                                            </div>
+                                        </div>
+                                        <div class="page-order__form-item">
+                                            <label>Size</label>
+                                            <div class="page-order__form-input">
+                                                <input type="text" placeholder="Kích thước bạn chọn">
+                                            </div>
+                                        </div>
+                                        <div class="page-order__form-item">
+                                            <label>Màu</label>
+                                            <div class="page-order__form-input">
+                                                <input type="text" placeholder="Màu sắc">
+                                            </div>
+                                        </div>
+                                        <div class="page-order__form-item">
+                                            <label>Địa chỉ nhận hàng</label>
+                                            <div class="page-order__form-input">
+                                                <input type="text" placeholder="Nhập địa chỉ giao hàng">
+                                            </div>
+                                        </div>
+                                        <div class="page-order__form-item">
+                                            <label class="no-before">Ghi chú</label>
+                                            <div class="page-order__form-input">
+                                                <textarea placeholder="Ghi chú thêm của bạn"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="page-order__repel">
+                                            <div class="title">
+                                                Khước từ
+                                            </div>
+                                            <div class="desc">
+                                                Tất cả các sản phẩm có sẵn cho dịch vụ đại lý mua sắm được hiển thị trên MuaSamUk là sản phẩm được lấy từ nền tảng mua sắm của bên thứ ba và không được bán trực tiếp bởi MuaSamUk. Do đó, trong trường hợp có bất kỳ vấn đề vi phạm nào liên quan đến các
+                                                sản phẩm nêu trên, mọi trách nhiệm pháp lý phát sinh sẽ do người bán tương ứng trên nền tảng của bên thứ ba chịu trong khi MuaSamUk sẽ không thực hiện bất kỳ trách nhiệm pháp lý liên quan, thế chấp hoặc
+                                                liên đới nào.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="page-order__footer">
+                            <button type="button" class="btn-order">Đặt hàng ngay</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--End Main-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="footer-top__left">
+                            <div class="logo">
+                                <a href="index.html">
+                                    MuaSam<span>UK</span>.VN
+                                </a>
+                            </div>
+                            <div class="payment">
+                                <ul>
+                                    <li><a href="#"><em>|</em>PayPal</a></li>
+                                    <li><a href="#"><em>|</em>VISA</a></li>
+                                    <li><a href="#"><em>|</em>ALIPAY</a></li>
+                                    <li><a href="#"><em>|</em>Union Pay</a></li>
+                                </ul>
+                            </div>
+                            <div class="desc">Chúng tôi hỗ trợ một số loại thẻ tín dụng và thẻ ghi nợ để nạp tiền. <a href="#">
+                                Biêt nhiêu hơn >
+                            </a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-top__right">
+                            <ul>
+                                <li>
+                                    <span>Hotline (Có phí) : </span>
+                                    <span>+84-971-021196</span>
+                                </li>
+                                <li>
+                                    <span>Email : </span>
+                                    <span>lienhe@muasamuk.com</span>
+                                </li>
+                                <li>
+                                    <a class="fb" href="#"></a>
+                                    <a class="yt" href="#"></a>
+                                    <a class="tw" href="#"></a>
+                                    <a class="we" href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                Copyright ©2021 - MuaSamUk.VN <i>|</i> Bản quyền thuộc về MuaSamUk
+            </div>
+        </div>
+
+    </footer>
+    <!--End Footer-->
+
+    <!--Jquery JS -->
+    <script src="libs/jquery/jquery.js"></script>
+    <!--Bootstrap JS -->
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <!--Index JS -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
